@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
-
+import Header from './Header'
 function App() {
   return (
-    //BEM
-    <div className="App">
-      
+    <div className="app">
+      <h1>we are building amazon</h1>
+      <Header />
+      { /* Home */}
     </div>
   );
 }
