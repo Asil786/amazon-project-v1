@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>we are building amazon</h1>
+      <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
     </div>
   );
 }
