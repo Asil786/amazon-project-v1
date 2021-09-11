@@ -3,8 +3,8 @@ import './Header.css'
 
 function header() {
     return (
-        <div>
-            
+        <div className="header">
+            <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
         </div>
     )
 }
