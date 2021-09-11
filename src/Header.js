@@ -23,8 +23,9 @@ function Header() {
                 <div className='header__option'></div>  
             </div>
         </div>
+
     
     )
 }
 
-export default Header;
+export default Header
