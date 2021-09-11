@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './Header.js'
+import Header from './Header';
+
 function App() {
   return (
-    <div className="app">
-      <h1>we are building amazon</h1>
+    <div className="App">
+      <h1> Hello Amazon </h1>
       <Header />
-      { /* Home */}
+      {/Home/}
     </div>
   );
 }
