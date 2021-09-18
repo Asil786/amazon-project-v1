@@ -1,3 +1,9 @@
+body{
+    background-image: url("backgroundimage.jpg");
+    width: 100%;
+    height: 100%;
+}
+
 .header{
     background-color: black;
     display: flex;
@@ -15,10 +21,54 @@
     object-fit: contain;
 }
 
-.header--option{
-    color: white;
+.header--search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header--searchInput{
+    padding: 10px;
+    height: 14px;
+    border: none;
+    width: 100%;
 }
 
 .header--searchIcon{
     background-color: #FEBD69 ;
+    padding: 5px;
+    height: 22px;
+}
+
+.header--nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header--option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header--optionLineOne{
+    font-size: 10px;
+}
+
+.header--optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header--optionBasket{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header--basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }
