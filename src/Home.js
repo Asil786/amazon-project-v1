@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Navbar from './Navbar';
+import CarouselContainer from './component/Carousel';
 import Product from './Product';
 
 function Home() {
@@ -10,8 +11,12 @@ function Home() {
           <br />
           <Navbar />
           </div>
-      <div className="home--container">
-        <img className="home--image" src="https://m.media-amazon.com/images/I/71i723QTb+L._SX3000_.jpg" alt="" />
+          <div className="carlouse">
+          <CarouselContainer /> 
+          </div>
+
+      {/* <div className="home--container">
+        <img className="home--image" src="https://m.media-amazon.com/images/I/71i723QTb+L._SX3000_.jpg" alt="" /> */}
 
         <div className="home--row">
           <Product
