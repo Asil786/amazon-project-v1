@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+// import Navbar from './Navbar';
 
 function Header() {
     return (
@@ -16,7 +17,7 @@ function Header() {
              <span className="header--optionLineTwo"> Select your address</span>
             </div>
           </div>
-       < div className="header--search">
+       <div className="header--search">
           <div className="header--searchcategories">
             <select className="all--categories">
               <option selected="selected">All </option>
@@ -88,8 +89,7 @@ function Header() {
           <ShoppingCartIcon />
           <span className="header--optionLineTwo header--basketCount">0</span>
           </div>
-
-
+          
 
         </div>
     )

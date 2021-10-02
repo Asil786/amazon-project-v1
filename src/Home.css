@@ -19,6 +19,7 @@
 }
 
 .home--image{
+    margin-top: 10px;
     width: 100%;
     object-fit: contain;
     z-index: -1;
