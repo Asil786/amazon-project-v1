@@ -63,7 +63,9 @@ function Header() {
           </div>
           <input className="header--searchInput" type="text" />
           {/* Material UI */}
+          <div className="header--searchicondiv">
           <SearchIcon className="header--searchIcon" />
+          </div>
           </div>  
 
           <div className="header--nav">

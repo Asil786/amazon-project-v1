@@ -14,7 +14,7 @@ function Product({id, title, price, image}) {
                 
              <img className="product--image" src={image} alt="" /> 
           </div>
-             <button className="product--button">Add to Cart</button>  
+          <button className="product--button">Add to Cart</button>  
           
         </div>
     )
