@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 // import Navbar from './Navbar';
 import Product from './Product';
+// import Product2 from './Product2';
 
 function Home() {
   return (
@@ -11,13 +12,12 @@ function Home() {
         <div className="home--row">
           <Product
             id="01"
-            title="See U in C by Ali Karim Sayed (Author)"
+            title="Up to 50% off | Alexa & Fire TV device"
             price={4450}
-            image="https://images-na.ssl-images-amazon.com/images/I/41SMlI+1PrL._SX331_BO1,204,203,200_.jpg"
           />
           <Product
             id="02"
-            title="OnePlus 9 5G (Astral Black, 8GB RAM, 128GB Storage)"
+            title="Up to 40% off | Mobiles & accessories"
             price={200}
             image="https://m.media-amazon.com/images/I/61urU8k2lFL._SL1500_.jpg"
           />
@@ -53,13 +53,13 @@ function Home() {
 
           <Product
             id="07"
-            title="ASUS VivoBook 15 (2020), 39.6 cm HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB"
+            title="ASUS VivoBook 15 (2020), 39.6 cm HD, Dual Core"
             price={2000.00}
             image="https://m.media-amazon.com/images/I/71S8U9VzLTL._SL1500_.jpg"
           />
           <Product
             id="08"
-            title="Noise ColorFit Ultra Smartwatch with 1.75 HD TruView Display, 60 Sports"
+            title="Noise ColorFit Ultra Smartwatch with 1.75 HD TruView Display"
             price={3.00}
             image="https://m.media-amazon.com/images/I/71mRLPn333L._SL1500_.jpg"
           />
@@ -75,7 +75,7 @@ function Home() {
 
           <Product
             id="07"
-            title="Noise ColorFit Pulse Spo2 Smart Watch with 10 days battery life, 60+ Watch Faces, 1.4 Full Touch HD"
+            title="Noise ColorFit Pulse Spo2 Smart Watch with 10 days battery life"
             price={2000.00}
             image="https://images-eu.ssl-images-amazon.com/images/I/41XH-IpxCQL._SX300_SY300_QL70_FMwebp_.jpg"
           />
