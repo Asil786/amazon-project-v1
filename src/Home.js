@@ -12,7 +12,7 @@ function Home() {
         <div className="home--row">
           <Product
             id="01"
-            title="Up to 50% off | Alexa & Fire TV device"
+            title="Up to 50% off | Alexa & Fire TV devices"
             price={4450}
           />
           <Product
