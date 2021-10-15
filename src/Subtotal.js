@@ -8,7 +8,7 @@ function Subtotal() {
            <small className="subtotal--gift">
            <input type="checkbox" />This order contains a gift
            </small>
-           <button>Proceed to Buy</button>
+           <button>Proceed to Bu</button>
         </div>
     )
 }
