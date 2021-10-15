@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselContainer from './component/Carousel';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Checkout from './Checkout';
-import Navbar from './Navbar';
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Switch>
           <Route path="/checkout">
             <Header />
-            <Navbar />
             {/* <CarouselContainer /> */}
             <Checkout />
           </Route>

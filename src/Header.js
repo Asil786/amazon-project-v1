@@ -93,7 +93,7 @@ function Header() {
       <Link to="/checkout">
         <div className="header--optionBasket">
           <ShoppingCartIcon />
-          <span className="header--optionLineTwo header--basketCount">0</span>
+          <span className="header--optionLineTwo1 header--basketCount">0</span>
         </div>
       </Link>
 
